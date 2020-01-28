@@ -1,0 +1,12 @@
+/*! important: the styles are compiled via the sass/style.scss file */
+/* variables: from style to real code! */
+/* selected colors for this project */
+/* nested syntax, how cool is that? */
+/* mixins */
+/* line 12, ../../../../../Users/per/Documents/html_root/localhost/2020-faa-2sem/2semForaar2020/sass-boilerplate/sass/style.scss */
+body {
+  background-color: green;
+  color: #00ff00;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.scss"
+	],
+	"sourcesContent": [
+		"/*! important: the styles are compiled via the sass/style.scss file */\n\n/* variables: from style to real code! */\n$green: green;\n\n/* selected colors for this project */\n\n/* nested syntax, how cool is that? */\n\n/* mixins */ \n\nbody {\n    background-color: $green;\n    color: #00ff00;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,sEAAsE;AAEtE,yCAAyC;AAGzC,sCAAsC;AAEtC,sCAAsC;AAEtC,YAAY;;AAEZ,AAAA,IAAI,CAAC;EACD,gBAAgB,EATZ,KAAK;EAUT,KAAK,EAAE,OAAO;CACjB"
+}
