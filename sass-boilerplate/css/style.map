@@ -5,8 +5,8 @@
 		"../sass/style.scss"
 	],
 	"sourcesContent": [
-		"/*! important: the styles are compiled via the sass/style.scss file */\n\n/* variables: from style to real code! */\n$green: green;\n\n/* selected colors for this project */\n\n/* nested syntax, how cool is that? */\n\n/* mixins */ \n\nbody {\n    background-color: $green;\n    color: #00ff00;\n}"
+		"/*! important: the styles are compiled via the sass/style.scss file */\n\n/* variables  (not shown in css) - or from style to real code! */\n/* selected colors for this project */\n$green: #1cc867;\n$white: #fff;\n\n/* nested syntax, how cool is that? */\n\n/* mixins */ \n\n/* scss samples */\nbody {\n    background-color: $green;\n    color: #00ff00;\n}\n\n/* nested syntax */\nmain {\n    p {\n        color: $white;\n    }\n}\n\n\n"
 	],
 	"names": [],
-	"mappings": "AAAA,sEAAsE;AAEtE,yCAAyC;AAGzC,sCAAsC;AAEtC,sCAAsC;AAEtC,YAAY;;AAEZ,AAAA,IAAI,CAAC;EACD,gBAAgB,EATZ,KAAK;EAUT,KAAK,EAAE,OAAO;CACjB"
+	"mappings": "AAAA,sEAAsE;AAEtE,iEAAiE;AACjE,sCAAsC;AAItC,sCAAsC;AAEtC,YAAY;AAEZ,kBAAkB;;AAClB,AAAA,IAAI,CAAC;EACD,gBAAgB,EATZ,OAAO;EAUX,KAAK,EAAE,OAAO;CACjB;;AAED,mBAAmB;;AACnB,AACI,IADA,CACA,CAAC,CAAC;EACE,KAAK,EAfL,IAAI;CAgBP"
 }

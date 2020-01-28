@@ -1,15 +1,25 @@
 /*! important: the styles are compiled via the sass/style.scss file */
 
-/* variables: from style to real code! */
-$green: green;
-
+/* variables  (not shown in css) - or from style to real code! */
 /* selected colors for this project */
+$green: #1cc867;
+$white: #fff;
 
 /* nested syntax, how cool is that? */
 
 /* mixins */ 
 
+/* scss samples */
 body {
     background-color: $green;
     color: #00ff00;
 }
+
+/* nested syntax */
+main {
+    p {
+        color: $white;
+    }
+}
+
+
