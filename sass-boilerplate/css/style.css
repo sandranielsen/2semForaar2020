@@ -3,17 +3,46 @@
 /* selected colors for this project */
 /* nested syntax, how cool is that? */
 /* mixins */
+/* line 18, ../../../Desktop/2semForaar2020/sass-boilerplate/sass/style.scss */
+.box {
+  position: relative;
+  width: 99px;
+  height: 99px;
+  background-color: #0000ff;
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+/* line 25, ../../../Desktop/2semForaar2020/sass-boilerplate/sass/style.scss */
+#box {
+  -webkit-transform: rotate(23deg);
+  -ms-transform: rotate(23deg);
+  transform: rotate(23deg);
+}
+
 /* scss samples */
-/* line 13, ../../../../../../../../../../../../../Users/per/Documents/html_root/localhost/2020-faa-2sem/2semForaar2020/sass-boilerplate/sass/style.scss */
+/* line 30, ../../../Desktop/2semForaar2020/sass-boilerplate/sass/style.scss */
 body {
   background-color: #1cc867;
   color: #00ff00;
 }
 
 /* nested syntax */
-/* line 20, ../../../../../../../../../../../../../Users/per/Documents/html_root/localhost/2020-faa-2sem/2semForaar2020/sass-boilerplate/sass/style.scss */
+/* line 37, ../../../Desktop/2semForaar2020/sass-boilerplate/sass/style.scss */
 main p {
-  color: #fff;
+  color: #0000ff;
+  background-color: #1cc867;
+}
+
+/* line 40, ../../../Desktop/2semForaar2020/sass-boilerplate/sass/style.scss */
+main p a {
+  text-decoration: none;
+}
+
+/* line 44, ../../../Desktop/2semForaar2020/sass-boilerplate/sass/style.scss */
+main a {
+  color: #ff0000;
 }
 
 /*# sourceMappingURL=style.css.map */

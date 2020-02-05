@@ -1,0 +1,36 @@
+/**
+ * file: style.css
+ * purpose: styles, animation etc
+ * further development: meyer reset perhaps?
+ **/
+
+img {
+    width: 300px;
+    height: auto;
+    margin: 50px;
+    border-radius: 150px;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+
+
+#exhibition {
+    text-align: center;
+}
+
+body {
+    background-color: #F0E0C4;
+}
+
+img:hover {
+    border-radius: 10px;
+}
+
+
+
