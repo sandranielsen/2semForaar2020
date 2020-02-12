@@ -1,0 +1,38 @@
+/**
+ * file: style.css
+ * project: parallax-idea
+ * purpose: styles, animation etc
+ * further development: meyer reset perhaps?
+ **/
+body,
+h1 {
+    margin: 0px;
+    padding: 0px;
+
+}
+.a {
+    height: 150vh;
+    background-image: url(/images/background.jpg);
+    background-size: cover;   
+}
+
+
+.xx {
+    background-color: #ff0000;
+}
+
+#anima_1 {
+}
+
+#camel {
+    width: 400px;
+    top: 500px;
+    right: 0;
+    position: absolute;
+}
+
+
+.anima {
+    position: absolute;
+    right: 0;
+}

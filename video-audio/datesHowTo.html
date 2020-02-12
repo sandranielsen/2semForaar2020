@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>How to use dates in JS</title>
+	<meta name="author" content="Sandra">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="">
+	<link rel="icon" type="image/x-icon" href=""/>
+</head>
+
+<body>
+	<h1>Dato</h1>
+	<div id="result"></div>
+	<script>
+    let now = new Date();
+    console.log ( now.getDay () );
+        
+    let week = [
+        "søndag",
+        "mandag",
+        "tirsdag",
+        "onsdag",
+        "torsdag",
+        "fredag",
+        "lørdag"
+    ];
+    console.log (week [ now.getDay() ]);
+    
+    result.innerHTML = 
+        "<p>Goddag det er "
+        + week [ now.getDay() ]
+        + " i dag<p>";
+    
+    result.innerHTML +=
+        "Og det er"
+        + month [ now.getMonth() ];
+        
+        
+    
+    console.log( [ now.getMonth() ]);
+        let month = [
+            "january",
+            "february",
+            "march",
+            "april",
+            "may",
+            "june",
+            "july",
+            "august",
+            "september",
+            "oktober",
+            "november",
+            "december"
+        ];
+        
+        
+    </script>
+	
+	
+</body>
+
+</html>

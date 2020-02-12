@@ -1,0 +1,32 @@
+/**
+ * file: style.css
+ * project: video sample
+ **/
+
+body,
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Corbel',
+        sans-serif;
+}
+
+
+header {
+    height: 30vh;
+    background: #d8daea;
+    color: #fff;
+    text-align: center;
+    line-height: 33vh;
+}
+
+.button {
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    background-color: dimgrey;
+    border: none;
+    padding: 10px;
+    font-family: 'Corbel', sans-serif;
+    margin: 20px 5px;
+}
